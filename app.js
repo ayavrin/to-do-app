@@ -29,7 +29,7 @@ const initApp = () => {
                 individualItem.dataset.uuid = UUID;  // Store UUID as a data attribute
                 individualItem.innerHTML = `
             <div class="content " >
-            <input type="checkbox" class="checkBox id="item${UUID}" name="item${UUID}" value="${value}">
+            <input type="checkbox" class="checkBox" id="item${UUID}" name="item${UUID}" value="${value}">
             <label for="item${UUID}">${value}</label>
             <button class="delete"><img class="trash" src="./assets/trash.png"></button>
             </div>`;
