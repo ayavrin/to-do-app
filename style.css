@@ -20,7 +20,7 @@ dialog{
     width: 280px;
     border-radius: 10px;
     border-style:none ;
-    display: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
